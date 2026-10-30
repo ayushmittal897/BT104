@@ -1,0 +1,19 @@
+# Dependencies and local environments
+.venv/
+node_modules/
+dist/
+.output/
+__pycache__/
+*.py[cod]
+
+# Local security-sensitive or large artifacts
+MachineLearningCSV/
+models/
+models_*/
+*.pcap
+*.pcapng
+alerts*.csv
+*_test.csv
+.env
+.env.*
+!.env.example
