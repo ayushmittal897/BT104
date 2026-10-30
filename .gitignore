@@ -1,0 +1,22 @@
+# Local environments and generated dependencies
+.venv/
+**/__pycache__/
+*.py[cod]
+node_modules/
+dist/
+.output/
+
+# Training data, local captures, and derived model artifacts are not submitted by default.
+MachineLearningCSV/
+alerts*.csv
+*_test.csv
+*.pcap
+*.pcapng
+models/
+models_*/
+
+# Secrets and local editor settings
+.env
+.env.*
+!.env.example
+.vscode/
